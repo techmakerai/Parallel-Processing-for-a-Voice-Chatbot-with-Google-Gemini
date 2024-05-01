@@ -76,7 +76,7 @@ def text2speech(text_queue, audio_queue, stop_event, data_available,busynow):
 
     while not stop_event.is_set():  # Keep running until stop_event is set
         try:
-            text = text_queue.get(timeout=0.5)  # Wait for 0.5 second  
+            text = text_queue.get(timeout=1)  # Wait for 1 second  
             if len(text) < 2:
                 text_queue.task_done()
                 print("skip short string text.. ")
