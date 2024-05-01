@@ -1,6 +1,6 @@
 # Parallel Processing for Speeding up a Voice Chatbot with Google Gemini
 
-Previously, I built a voice assistant (chatbot) with Raspberry Pi, Python, and OpenAI ChatGPT API. In this project, I changed it to use Google's Gemini API. This version has been tested on Raspberry Pi 4 model B. The no-LED version of the code (GVA4Pi1_NoLED.py) works on both Raspberry Pi and Windows. 
+In my previous project, I built a Google Gemini-powered voice chatbot with Python. However, in that code, I used sequential (programming) processing such that there is a pause in the middle of the reply from AI. In this project, I will build a Google Gemini-powered voice chatbot with parallel processing in Python. Specifically, we will use parallel computing in Python to split tasks such as Text generation, Text-to-Speech conversation, and audio playing onto three threads (CPU cores) and speed up the program. I have one version of the code that only works on Raspberry Pi because it requires LEDs and resistors. If you do not have LEDs or resistors, I have another version that works on Raspberry Pi and Windows PCs.   
 
 Following the YouTube video below to learn more about this code:     
 [https://youtu.be/BQuYTOirVy4](https://youtu.be/b7lRQkJ2xJA)
