@@ -27,7 +27,7 @@ You will need to install the following packages to run this code:
 
 ```console
 pip install -q -U google-generativeai
-pip install speechrecognition gtts pygame gpiozero
+pip install speechrecognition gtts pygame pyaudio gpiozero
 ```
    
 If you have Python 3.12 or newer, also install the "setuptools" package,       
