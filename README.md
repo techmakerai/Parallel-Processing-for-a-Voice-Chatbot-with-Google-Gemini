@@ -26,7 +26,7 @@ GOOGLE_API_KEY=(API key from Google)
 sudo apt install portaudio19-dev python3-pyaudio
 ```
 
-## Install Python and Packages 
+## Install Python Packages 
 You will need to install the following packages to run this code: 
 
 ```console
