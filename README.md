@@ -20,7 +20,11 @@ Here is a schematic of the Raspberry Pi and LEDs
 ## Set System Environment Variables 
 
 GOOGLE_API_KEY=(API key from Google)   
-PYGAME_HIDE_SUPPORT_PROMPT=hide
+
+## Install System Packages 
+```console
+sudo apt install portaudio19-dev python3-pyaudio
+```
 
 ## Install Python and Packages 
 You will need to install the following packages to run this code: 
